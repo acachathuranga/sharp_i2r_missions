@@ -1,0 +1,86 @@
+{
+    "mission_id": 20,
+    "mission_repeat_count": 0,
+    "mission_version": 1,
+    "missions": [
+        {
+            "description": "",
+            "gui": {
+                "x": 990,
+                "y": 470
+            },
+            "name": "line_following",
+            "next": [
+                {
+                    "and_condition": true,
+                    "condition": "line_following_status == 2",
+                    "id": 2
+                }
+            ],
+            "rosparams": {
+                "mission_data": "{\"all_goals\":[],\"exit_id\":-1,\"goal\":{\"goal_data\":{\"description\":\"\",\"nav_angle_w\":1,\"nav_angle_x\":0,\"nav_angle_y\":0,\"nav_angle_z\":0,\"nav_map_name\":\"\",\"nav_pose_x\":0,\"nav_pose_y\":0,\"nav_pose_z\":0},\"goal_id\":-1},\"points\":[{\"angle_accuracy\":0.30000001192092896,\"drive_forward\":1,\"group_id\":0,\"horn_mode\":-1,\"id\":4,\"map_x\":1290.139534883721,\"map_y\":962.7906976744185,\"nav_max_turn\":0.5,\"nav_max_vel\":1,\"nav_mode\":2,\"patience\":1,\"pose\":{\"description\":\"Point 4\",\"nav_angle_w\":0.9887978760357525,\"nav_angle_x\":0,\"nav_angle_y\":0,\"nav_angle_z\":-0.14926071267143481,\"nav_map_name\":\"sutd_cgh_lab\",\"nav_pose_x\":1.395,\"nav_pose_y\":0.735,\"nav_pose_z\":0},\"position_accuracy\":0.30000001192092896,\"using_custom_orientation\":false},{\"angle_accuracy\":0.30000001192092896,\"drive_forward\":1,\"group_id\":0,\"horn_mode\":-1,\"id\":5,\"map_x\":1413.1627906976744,\"map_y\":1000.2325581395348,\"nav_max_turn\":0.5,\"nav_max_vel\":1,\"nav_mode\":2,\"patience\":1,\"pose\":{\"description\":\"Point 5\",\"nav_angle_w\":0.9905325343236332,\"nav_angle_x\":0,\"nav_angle_y\":0,\"nav_angle_z\":-0.13727817906135129,\"nav_map_name\":\"sutd_cgh_lab\",\"nav_pose_x\":3.2399999999999998,\"nav_pose_y\":0.16499999999999998,\"nav_pose_z\":0},\"position_accuracy\":0.30000001192092896,\"using_custom_orientation\":false},{\"angle_accuracy\":0.30000001192092896,\"drive_forward\":1,\"group_id\":0,\"horn_mode\":-1,\"id\":6,\"map_x\":1551.1627906976742,\"map_y\":1039.813953488372,\"nav_max_turn\":0.5,\"nav_max_vel\":1,\"nav_mode\":2,\"patience\":1,\"pose\":{\"description\":\"Point 6\",\"nav_angle_w\":0.7644335624026765,\"nav_angle_x\":0,\"nav_angle_y\":0,\"nav_angle_z\":-0.6447025117620945,\"nav_map_name\":\"sutd_cgh_lab\",\"nav_pose_x\":5.31,\"nav_pose_y\":-0.42,\"nav_pose_z\":0},\"position_accuracy\":0.30000001192092896,\"using_custom_orientation\":false},{\"angle_accuracy\":0.30000001192092896,\"drive_forward\":1,\"group_id\":0,\"horn_mode\":-1,\"id\":7,\"map_x\":1570.4186046511627,\"map_y\":1150,\"nav_max_turn\":0.5,\"nav_max_vel\":1,\"nav_mode\":2,\"patience\":1,\"pose\":{\"description\":\"Point 7\",\"nav_angle_w\":0.7649205502795581,\"nav_angle_x\":0,\"nav_angle_y\":0,\"nav_angle_z\":-0.64412463992617,\"nav_map_name\":\"sutd_cgh_lab\",\"nav_pose_x\":5.595,\"nav_pose_y\":-2.085,\"nav_pose_z\":0},\"position_accuracy\":0.30000001192092896,\"using_custom_orientation\":false}],\"repeat_count\":0,\"start_id\":-1}",
+                "retry_count": 0,
+                "retry_seconds": 0,
+                "rosparam_write_count_max": -1,
+                "tablettap_but_ids": [
+                    -2,
+                    -3,
+                    1,
+                    2,
+                    3
+                ],
+                "tablettap_but_names": [
+                    "Code Blue",
+                    "Code Red",
+                    "Resume",
+                    "Follow",
+                    "Continue"
+                ],
+                "tablettap_msg_timeout": 3,
+                "tablettap_print_tts": false,
+                "tablettap_tts": "",
+                "timeout_condition": "",
+                "timeout_time": 0
+            },
+            "submission_uid": 1,
+            "type": 10001
+        },
+        {
+            "description": "",
+            "gui": {
+                "x": 992,
+                "y": 577
+            },
+            "name": "completed",
+            "next": [
+            ],
+            "rosparams": {
+                "retry_count": 0,
+                "retry_seconds": 0,
+                "rosparam_write_count_max": -1,
+                "tablettap_but_ids": [
+                    -2,
+                    -3,
+                    1,
+                    2,
+                    3
+                ],
+                "tablettap_but_names": [
+                    "Code Blue",
+                    "Code Red",
+                    "Resume",
+                    "Follow",
+                    "Continue"
+                ],
+                "tablettap_msg_timeout": 3,
+                "tablettap_print_tts": false,
+                "tablettap_tts": "",
+                "timeout_condition": "",
+                "timeout_time": 0
+            },
+            "submission_uid": 2,
+            "type": -3
+        }
+    ],
+    "start_id": 1
+}

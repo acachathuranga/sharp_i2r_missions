@@ -1,0 +1,93 @@
+{
+    "mission_id": 20,
+    "mission_repeat_count": 0,
+    "mission_version": 1,
+    "missions": [
+        {
+            "description": "sutd_cgh_lab Home",
+            "gui": {
+                "x": 950,
+                "y": 462
+            },
+            "name": "nav",
+            "next": [
+                {
+                    "and_condition": true,
+                    "condition": "nav_status == 2",
+                    "id": 2
+                }
+            ],
+            "rosparams": {
+                "nav_angle_w": 0.707106781187,
+                "nav_angle_x": 0,
+                "nav_angle_y": 0,
+                "nav_angle_z": 0.707106781187,
+                "nav_map_name": "sutd_cgh_lab",
+                "nav_pose_x": 0,
+                "nav_pose_y": 0.015,
+                "nav_pose_z": 0,
+                "retry_count": 0,
+                "retry_seconds": 0,
+                "rosparam_write_count_max": -1,
+                "tablettap_but_ids": [
+                    -2,
+                    -3,
+                    1,
+                    2,
+                    3
+                ],
+                "tablettap_but_names": [
+                    "Code Blue",
+                    "Code Red",
+                    "Resume",
+                    "Follow",
+                    "Continue"
+                ],
+                "tablettap_msg_timeout": 3,
+                "tablettap_print_tts": false,
+                "tablettap_tts": "",
+                "timeout_condition": "",
+                "timeout_time": 0
+            },
+            "submission_uid": 1,
+            "type": 3
+        },
+        {
+            "description": "",
+            "gui": {
+                "x": 949,
+                "y": 551
+            },
+            "name": "completed",
+            "next": [
+            ],
+            "rosparams": {
+                "retry_count": 0,
+                "retry_seconds": 0,
+                "rosparam_write_count_max": -1,
+                "tablettap_but_ids": [
+                    -2,
+                    -3,
+                    1,
+                    2,
+                    3
+                ],
+                "tablettap_but_names": [
+                    "Code Blue",
+                    "Code Red",
+                    "Resume",
+                    "Follow",
+                    "Continue"
+                ],
+                "tablettap_msg_timeout": 3,
+                "tablettap_print_tts": false,
+                "tablettap_tts": "",
+                "timeout_condition": "",
+                "timeout_time": 0
+            },
+            "submission_uid": 2,
+            "type": -3
+        }
+    ],
+    "start_id": 1
+}

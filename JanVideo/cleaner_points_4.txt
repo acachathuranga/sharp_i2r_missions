@@ -1,0 +1,79 @@
+{
+   "groups" : [
+      {
+         "all_goals" : [],
+         "exit_id" : 1,
+         "goal" : {
+            "goal_data" : {
+               "description" : "",
+               "nav_angle_w" : 1,
+               "nav_angle_x" : 0,
+               "nav_angle_y" : 0,
+               "nav_angle_z" : 0,
+               "nav_map_name" : "",
+               "nav_pose_x" : 0,
+               "nav_pose_y" : 0,
+               "nav_pose_z" : 0
+            },
+            "goal_id" : -1
+         },
+         "points" : [
+            {
+               "angle_accuracy" : 0.01,
+               "drive_forward" : 1,
+               "group_id" : 0,
+               "horn_mode" : -1,
+               "id" : 0,
+               "map_x" : 1474.1395348837207,
+               "map_y" : 1124.325581395349,
+               "nav_max_turn" : 0.5,
+               "nav_max_vel" : 1,
+               "nav_mode" : 2,
+               "patience" : -1,
+               "pose" : {
+                  "description" : "Point 0",
+                  "nav_angle_w" : 0.1736,
+                  "nav_angle_x" : 0,
+                  "nav_angle_y" : 0,
+                  "nav_angle_z" : -0.98480000000000001,
+                  "nav_map_name" : "sutd_cgh_lab",
+                  "nav_pose_x" : 4.1550000000000002,
+                  "nav_pose_y" : -1.6949999999999998,
+                  "nav_pose_z" : 0
+               },
+               "position_accuracy" : 0.14999999999999999,
+               "using_custom_orientation" : true
+            },
+            {
+               "angle_accuracy" : 10,
+               "drive_forward" : -1,
+               "group_id" : 0,
+               "horn_mode" : -1,
+               "id" : 1,
+               "map_x" : 1501.4950166112935,
+               "map_y" : 1113.4750830564778,
+               "nav_max_turn" : 0.10000000000000001,
+               "nav_max_vel" : 0.10000000000000001,
+               "nav_mode" : 1,
+               "patience" : -1,
+               "pose" : {
+                  "description" : "Point 1",
+                  "nav_angle_w" : 0.1736,
+                  "nav_angle_x" : 0,
+                  "nav_angle_y" : 0,
+                  "nav_angle_z" : -0.98480000000000001,
+                  "nav_map_name" : "sutd_cgh_lab",
+                  "nav_pose_x" : 4.5599999999999996,
+                  "nav_pose_y" : -1.53,
+                  "nav_pose_z" : 0
+               },
+               "position_accuracy" : 0.050000000000000003,
+               "using_custom_orientation" : true
+            }
+         ],
+         "repeat_count" : 0,
+         "start_id" : 0
+      }
+   ],
+   "repeat_count" : 0
+}

@@ -1,0 +1,105 @@
+{
+   "groups" : [
+      {
+         "all_goals" : [],
+         "exit_id" : -1,
+         "goal" : {
+            "goal_data" : {
+               "description" : "",
+               "nav_angle_w" : 1,
+               "nav_angle_x" : 0,
+               "nav_angle_y" : 0,
+               "nav_angle_z" : 0,
+               "nav_map_name" : "",
+               "nav_pose_x" : 0,
+               "nav_pose_y" : 0,
+               "nav_pose_z" : 0
+            },
+            "goal_id" : -1
+         },
+         "points" : [
+            {
+               "angle_accuracy" : 0.30000001192092896,
+               "drive_forward" : 1,
+               "group_id" : 0,
+               "horn_mode" : -1,
+               "id" : 0,
+               "map_x" : 1205.627906976744,
+               "map_y" : 959.58139534883708,
+               "nav_max_turn" : 0.5,
+               "nav_max_vel" : 1,
+               "nav_mode" : 1,
+               "patience" : -1,
+               "pose" : {
+                  "description" : "Point 0",
+                  "nav_angle_w" : 0.99125651020161099,
+                  "nav_angle_x" : 0,
+                  "nav_angle_y" : 0,
+                  "nav_angle_z" : -0.13194897113249293,
+                  "nav_map_name" : "sutd_cgh_lab",
+                  "nav_pose_x" : 0.12,
+                  "nav_pose_y" : 0.78000000000000003,
+                  "nav_pose_z" : 0
+               },
+               "position_accuracy" : 0.30000001192092896,
+               "using_custom_orientation" : false
+            },
+            {
+               "angle_accuracy" : 0.30000001192092896,
+               "drive_forward" : 1,
+               "group_id" : 0,
+               "horn_mode" : -1,
+               "id" : 1,
+               "map_x" : 1312.6046511627906,
+               "map_y" : 988.46511627906966,
+               "nav_max_turn" : 0.5,
+               "nav_max_vel" : 1,
+               "nav_mode" : 1,
+               "patience" : -1,
+               "pose" : {
+                  "description" : "Point 1",
+                  "nav_angle_w" : 0.99385794800803196,
+                  "nav_angle_x" : 0,
+                  "nav_angle_y" : 0,
+                  "nav_angle_z" : -0.11066335970529743,
+                  "nav_map_name" : "sutd_cgh_lab",
+                  "nav_pose_x" : 1.7249999999999999,
+                  "nav_pose_y" : 0.34499999999999997,
+                  "nav_pose_z" : 0
+               },
+               "position_accuracy" : 0.30000001192092896,
+               "using_custom_orientation" : false
+            },
+            {
+               "angle_accuracy" : 0.30000001192092896,
+               "drive_forward" : 1,
+               "group_id" : 0,
+               "horn_mode" : -1,
+               "id" : 2,
+               "map_x" : 1414.2325581395348,
+               "map_y" : 1011.9999999999999,
+               "nav_max_turn" : 0.5,
+               "nav_max_vel" : 1,
+               "nav_mode" : 1,
+               "patience" : -1,
+               "pose" : {
+                  "description" : "Point 2",
+                  "nav_angle_w" : 0.99320427750344809,
+                  "nav_angle_x" : 0,
+                  "nav_angle_y" : 0,
+                  "nav_angle_z" : -0.11638411897185036,
+                  "nav_map_name" : "sutd_cgh_lab",
+                  "nav_pose_x" : 3.2549999999999999,
+                  "nav_pose_y" : 0,
+                  "nav_pose_z" : 0
+               },
+               "position_accuracy" : 0.30000001192092896,
+               "using_custom_orientation" : false
+            }
+         ],
+         "repeat_count" : 0,
+         "start_id" : -1
+      }
+   ],
+   "repeat_count" : 0
+}

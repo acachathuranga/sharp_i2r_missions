@@ -1,0 +1,140 @@
+{
+    "mission_id": 47,
+    "mission_repeat_count": 0,
+    "mission_version": 1,
+    "missions": [
+        {
+            "description": "",
+            "gui": {
+                "x": 860,
+                "y": 511
+            },
+            "name": "line_following",
+            "next": [
+                {
+                    "and_condition": true,
+                    "condition": "line_following_status == 2",
+                    "id": 2
+                },
+                {
+                    "and_condition": true,
+                    "condition": "idle_status == 2",
+                    "id": 3
+                }
+            ],
+            "rosparams": {
+                "mission_data": "{\"all_goals\":[],\"exit_id\":-1,\"goal\":{\"goal_data\":{\"description\":\"\",\"nav_angle_w\":1,\"nav_angle_x\":0,\"nav_angle_y\":0,\"nav_angle_z\":0,\"nav_map_name\":\"\",\"nav_pose_x\":0,\"nav_pose_y\":0,\"nav_pose_z\":0},\"goal_id\":-1},\"points\":[{\"angle_accuracy\":0.30000001192092896,\"drive_forward\":1,\"group_id\":0,\"horn_mode\":-1,\"id\":0,\"map_x\":1368.2325581395348,\"map_y\":998.0930232558138,\"nav_max_turn\":0.5,\"nav_max_vel\":1,\"nav_mode\":1,\"patience\":-1,\"pose\":{\"description\":\"Point 0\",\"nav_angle_w\":0.15472652631352762,\"nav_angle_x\":0,\"nav_angle_y\":0,\"nav_angle_z\":0.9879573381755659,\"nav_map_name\":\"sutd_cgh_lab\",\"nav_pose_x\":2.565,\"nav_pose_y\":0.195,\"nav_pose_z\":0},\"position_accuracy\":0.30000001192092896,\"using_custom_orientation\":false},{\"angle_accuracy\":0.30000001192092896,\"drive_forward\":1,\"group_id\":0,\"horn_mode\":-1,\"id\":1,\"map_x\":1150.0000000000002,\"map_y\":928.5581395348836,\"nav_max_turn\":0.5,\"nav_max_vel\":1,\"nav_mode\":1,\"patience\":-1,\"pose\":{\"description\":\"Point 1\",\"nav_angle_w\":0.12649723679630123,\"nav_angle_x\":0,\"nav_angle_y\":0,\"nav_angle_z\":-0.9919669596730027,\"nav_map_name\":\"sutd_cgh_lab\",\"nav_pose_x\":-0.705,\"nav_pose_y\":1.2449999999999999,\"nav_pose_z\":0},\"position_accuracy\":0.30000001192092896,\"using_custom_orientation\":false},{\"angle_accuracy\":0.30000001192092896,\"drive_forward\":1,\"group_id\":0,\"horn_mode\":-1,\"id\":2,\"map_x\":1096.5116279069766,\"map_y\":942.4651162790698,\"nav_max_turn\":0.5,\"nav_max_vel\":1,\"nav_mode\":1,\"patience\":-1,\"pose\":{\"description\":\"Point 2\",\"nav_angle_w\":0.15105564281588832,\"nav_angle_x\":0,\"nav_angle_y\":0,\"nav_angle_z\":0.9885252615757875,\"nav_map_name\":\"sutd_cgh_lab\",\"nav_pose_x\":-1.515,\"nav_pose_y\":1.035,\"nav_pose_z\":0},\"position_accuracy\":0.30000001192092896,\"using_custom_orientation\":false},{\"angle_accuracy\":0.30000001192092896,\"drive_forward\":1,\"group_id\":0,\"horn_mode\":-1,\"id\":3,\"map_x\":949.9534883720929,\"map_y\":896.4651162790697,\"nav_max_turn\":0.5,\"nav_max_vel\":1,\"nav_mode\":1,\"patience\":-1,\"pose\":{\"description\":\"Point 3\",\"nav_angle_w\":0.16139475754188373,\"nav_angle_x\":0,\"nav_angle_y\":0,\"nav_angle_z\":0.9868899291400215,\"nav_map_name\":\"sutd_cgh_lab\",\"nav_pose_x\":-3.7199999999999998,\"nav_pose_y\":1.7249999999999999,\"nav_pose_z\":0},\"position_accuracy\":0.30000001192092896,\"using_custom_orientation\":false},{\"angle_accuracy\":0.30000001192092896,\"drive_forward\":1,\"group_id\":0,\"horn_mode\":-1,\"id\":4,\"map_x\":827.9999999999999,\"map_y\":855.813953488372,\"nav_max_turn\":0.5,\"nav_max_vel\":1,\"nav_mode\":1,\"patience\":-1,\"pose\":{\"description\":\"Point 4\",\"nav_angle_w\":0.15895744828402372,\"nav_angle_x\":0,\"nav_angle_y\":0,\"nav_angle_z\":0.9872854347325458,\"nav_map_name\":\"sutd_cgh_lab\",\"nav_pose_x\":-5.55,\"nav_pose_y\":2.34,\"nav_pose_z\":0},\"position_accuracy\":0.30000001192092896,\"using_custom_orientation\":false}],\"repeat_count\":0,\"start_id\":-1}",
+                "retry_count": 0,
+                "retry_seconds": 0,
+                "rosparam_write_count_max": -1,
+                "tablettap_but_ids": [
+                    -2,
+                    -3,
+                    1,
+                    2,
+                    3
+                ],
+                "tablettap_but_names": [
+                    "Code Blue",
+                    "Code Red",
+                    "Resume",
+                    "Follow",
+                    "Continue"
+                ],
+                "tablettap_msg_timeout": 3,
+                "tablettap_print_tts": false,
+                "tablettap_tts": "",
+                "timeout_condition": "idle_status == 2",
+                "timeout_time": 30
+            },
+            "submission_uid": 1,
+            "type": 10001
+        },
+        {
+            "description": "",
+            "gui": {
+                "x": 860,
+                "y": 679
+            },
+            "name": "completed",
+            "next": [
+            ],
+            "rosparams": {
+                "retry_count": 0,
+                "retry_seconds": 0,
+                "rosparam_write_count_max": -1,
+                "tablettap_but_ids": [
+                    -2,
+                    -3,
+                    1,
+                    2,
+                    3
+                ],
+                "tablettap_but_names": [
+                    "Code Blue",
+                    "Code Red",
+                    "Resume",
+                    "Follow",
+                    "Continue"
+                ],
+                "tablettap_msg_timeout": 3,
+                "tablettap_print_tts": false,
+                "tablettap_tts": "",
+                "timeout_condition": "",
+                "timeout_time": 0
+            },
+            "submission_uid": 2,
+            "type": -3
+        },
+        {
+            "description": "sutd_cgh_lab Home",
+            "gui": {
+                "x": 1079,
+                "y": 609
+            },
+            "name": "nav",
+            "next": [
+                {
+                    "and_condition": true,
+                    "condition": "nav_status == 2",
+                    "id": 2
+                }
+            ],
+            "rosparams": {
+                "nav_angle_w": 0.707106781187,
+                "nav_angle_x": 0,
+                "nav_angle_y": 0,
+                "nav_angle_z": 0.707106781187,
+                "nav_map_name": "sutd_cgh_lab",
+                "nav_pose_x": 0,
+                "nav_pose_y": 0.015,
+                "nav_pose_z": 0,
+                "retry_count": 0,
+                "retry_seconds": 0,
+                "rosparam_write_count_max": -1,
+                "tablettap_but_ids": [
+                    -2,
+                    -3,
+                    1,
+                    2,
+                    3
+                ],
+                "tablettap_but_names": [
+                    "Code Blue",
+                    "Code Red",
+                    "Resume",
+                    "Follow",
+                    "Continue"
+                ],
+                "tablettap_msg_timeout": 3,
+                "tablettap_print_tts": false,
+                "tablettap_tts": "",
+                "timeout_condition": "",
+                "timeout_time": 0
+            },
+            "submission_uid": 3,
+            "type": 3
+        }
+    ],
+    "start_id": 1
+}
